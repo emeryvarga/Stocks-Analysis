@@ -17,15 +17,21 @@ The original code and refactored code use the same logic to create an input box,
 
 **Figure 1**: Refactored VBA Code using tickerIndex
 
+
+
 As we can see in Figure 2a and Figure 2b, the original code takes nearly a second to execute. For the year 2017 and 2018, the code ran in ~0.76 seconds and ~0.78 seconds respectively.
 
 ![Original_VBA_2017](Resources/Original_VBA_2017.png)
 
 **Figure 2a**: Original code run time for the year 2017
 
+
+
 ![Original_VBA_2018](Resources/Original_VBA_2018.png)
 
 **Figure 2b**: Original code run time for the year 2018
+
+
 
 However, when we refactor the code by using the tickerIndex as a reference, the run time improves drastically, as seen in Figure 3a and Figure 3b. The refactored code takes ~0.11 and ~0.10 seconds for the year 2017 and 2018, respectively.
 
@@ -34,9 +40,13 @@ However, when we refactor the code by using the tickerIndex as a reference, the 
 **Figure 3a**: Refactored code run time for the year 2017
 
 
+
+
  ![VBA_Challenge_2018.png](Resources/VBA_Challenge_2018.png)
  
 **Figure 3b**: Refactored code run time for the year 2018
+
+
 
 IV.	Summary
 
