@@ -13,7 +13,7 @@ III.	Results
 
 The original code and refactored code use the same logic to create an input box, chart headers, ticker array, and activate the appropriate worksheet. However, the refactored code contains a tickerIndex which is used as a reference variable throughout the rest of the code, as seen in Figure 1.
 
-
+![Refactored_Code](Resources/Refactored_Code.png)
 **Figure 1**: Refactored VBA Code using tickerIndex
 
 As we can see in Figure 2a and Figure 2b, the original code takes nearly a second to execute. For the year 2017 and 2018, the code ran in ~0.76 seconds and ~0.78 seconds respectively.
